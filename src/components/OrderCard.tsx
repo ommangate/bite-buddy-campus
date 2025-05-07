@@ -17,10 +17,10 @@ const OrderCard = ({ order }: OrderCardProps) => {
   return (
     <Link
       to={`/orders/${order.id}`}
-      className="block border rounded-lg p-4 hover:shadow-md transition-shadow"
+      className="block border rounded-lg p-4 hover:shadow-md transition-shadow bg-white"
     >
       <div className="flex justify-between items-center mb-3">
-        <div className="font-medium">Order #{order.id.slice(-5)}</div>
+        <div className="font-medium text-gray-800">Order #{order.id.slice(-5)}</div>
         <OrderStatusBadge status={order.status} />
       </div>
       
