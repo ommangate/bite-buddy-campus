@@ -38,7 +38,10 @@ const Index = () => {
                   </Button>
                 </Link>
                 <Link to="/admin/login">
-                  <Button variant="outline" className="text-lg px-8 py-6 border-white text-white hover:bg-white/10">
+                  <Button 
+                    variant="outline" 
+                    className="text-lg px-8 py-6 bg-white/20 border-white text-white hover:bg-white hover:text-canteen-primary"
+                  >
                     <Settings size={20} className="mr-2" />
                     Admin Login
                   </Button>
